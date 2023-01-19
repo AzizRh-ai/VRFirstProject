@@ -1,0 +1,54 @@
+{
+    "name": "MouseController",
+    "maps": [
+        {
+            "name": "MouseController",
+            "id": "8e1db1cc-707e-4e4e-acb5-f39b0436baab",
+            "actions": [
+                {
+                    "name": "HorizontalMouse",
+                    "type": "Value",
+                    "id": "9096bb25-762d-456e-8413-395ed0b7b404",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "VerticalMouse",
+                    "type": "Value",
+                    "id": "e0c9d316-9673-4345-bf33-6520ab824dfa",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c47d53fc-4c9d-4ad8-995e-d425d82a1461",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HorizontalMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7a59caa-3e40-4196-8c94-8271ff68afa4",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "VerticalMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
