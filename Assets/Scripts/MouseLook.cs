@@ -3,10 +3,10 @@ using UnityEngine.InputSystem;
 
 public class MouseLook : MonoBehaviour
 {
-    [SerializeField] private InputActionReference horizontalLook;
-    [SerializeField] private InputActionReference verticalLook;
-    [SerializeField] private float lookSpeed = 1.0f;
-    [SerializeField] private Transform headCamTransform;
+    public InputActionReference horizontalLook;
+    public InputActionReference verticalLook;
+    public float lookSpeed = 1.0f;
+    public Transform headCamTransform;
 
     float pitch;
     float yaw;
